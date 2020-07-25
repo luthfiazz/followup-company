@@ -1,0 +1,14 @@
+.jumbotron{
+    background-image: url(img/header.jpg);
+    border-image-slice: 30%;
+    background-size: cover;
+    color: white;
+}
+
+.tombol{
+    border-radius: 20px;
+}
+
+.info_panel{
+    background-color: salmon;
+}
