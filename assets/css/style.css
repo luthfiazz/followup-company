@@ -1,39 +1,46 @@
+.wraper{
+    font-family: Viga;
+}
 .jumbotron{
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: top;
     color: white;
     object-fit: cover;
-    height: 630px;
+    height: 500px;
     margin-top: -150px;
 }
 
-.jumbotron .display-4 { 
+.jumbotron .display-4{ 
     margin-top: 200px;
     font-weight: 500;
     font-size: 50px;
 }
-
+.jumbotron .display-4 span{
+    font-weight: 500;
+}
 .jumbotron .lead{
     margin-top: -10px;
-    font-weight: 100;
     font-size: 30px;
+    font-display: regular;
 }
 
 .tombol{
     border-radius: 20px;
-    width: 175px;
+    width: 150px;
     height: 75px;
-    font-size: 30px;
-    margin-top: 100px;
+    font-size: 25px;
+    font-weight: 80;
+    margin-top: 55px;
 
 }
 
 .tomboll{
     align-items: center;
-    width: 200px;
-    height: 50px;
+    width: 210px;
+    height: 59px;
     font-size: 23px;
+    margin-left: -20px;
 }
 
 .tombolll{
@@ -44,6 +51,14 @@
     margin-left: 50px;
 }
 
+.tombollll{
+    border-radius: 20px;
+    width: 100px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+
 .info_panel{
     background-color: salmon;
 }
@@ -53,3 +68,232 @@
     margin-top: 10px;
 
 }
+
+
+.card-radius{
+    border-radius: 20px;
+
+}
+
+.client #image-client{
+    width: 300px;
+    margin-left: 66px;
+}
+
+.contact{
+    background-color: #aaa7a7;
+    background-size: 700px;
+    margin-top: 10px;
+}
+
+#contact{
+    margin-top: 15px;
+}
+
+.form-group #formGroupExampleInput{
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.form-group #exampleFormControlTextarea1{
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin-left: 20px;
+
+}
+
+.footer #image{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 86px;
+}
+
+.footer #copy{
+    margin-top: 20px;
+    margin-left: 85px;
+    font-size: 12px;
+}
+
+
+.row #ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 50px;
+    list-style: none;
+    }
+    .row #ul li{
+        display: inline;
+        margin-left: 12px;
+        font-size: 12px;
+
+    }
+
+
+/* Desktop Version*/
+/* @media (min-width: 1200px) { 
+
+    .jumbotron{
+        height: 630px;
+       
+    }
+    .tombol{
+        border-radius: 20px;
+        width: 175px;
+        height: 75px;
+        font-size: 25px;
+        font-weight: 80;
+        margin-top: 100px;
+    }
+
+    .tomboll{
+        align-items: center;
+        width: 350x;
+        height: 59px;
+        font-size: 23px;
+        margin-left: -20px;
+    }
+    
+    .tombolll{
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    
+    .tombollll{
+        border-radius: 20px;
+        width: 100px;
+        margin-bottom: 25px;
+    }
+
+    .row #ul {
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        margin-top: -150px;
+        margin-left:300px;
+    }
+
+    .row #ul li{
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        display: table-row;
+        font-size: 12px;
+        margin-left: 51px;
+    }
+    
+    .footer{
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    
+    .footer #copy{
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    
+    .footer #image{
+        margin-left: auto;
+    }
+
+    .client #image-client{
+        width: 200px;
+        margin-left: auto;
+    }
+}  */
+
+
+@media (min-width: 992px) { 
+    .jumbotron{
+        background-image: url(../images/banner.jpg);
+        background-size: cover;
+        background-position: top;
+        color: white;
+        height: 630px;
+        object-fit: cover;
+        margin-top: -150px;
+       
+    }
+    .tombol{
+    border-radius: 20px;
+    width: 175px;
+    height: 75px;
+    font-size: 25px;
+    font-weight: 80;
+    margin-top: 100px;
+    }
+
+    .tomboll{
+        align-items: center;
+        width: 234px;
+        height: 59px;
+        font-size: 23px;
+        margin-left: -20px;
+    }
+    
+    .tombolll{
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    
+    .tombollll{
+        border-radius: 20px;
+        width: 100px;
+        margin-bottom: 25px;
+    }
+
+    .footer{
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+    
+    .footer #copy{
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    
+    .footer #image{
+        margin-left: auto;
+    }
+
+    .client #image-client{
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    .row #ul{
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        font-size: 20px;
+        margin-left: 750px;
+        margin-top: -150px;
+    }
+
+    .form-group #formGroupExampleInput{
+        width: 300px;
+        height: 75px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+    
+    .form-group #exampleFormControlTextarea1{
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 800px;
+        margin-left: 20px;
+    
+    }
+
+    .followup{
+        color: white;
+        margin-top: -350px;
+        margin-left: 300px;
+    }
+ } 
